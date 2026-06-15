@@ -1,0 +1,20 @@
+{
+  "name": "pipeline-with-docker",
+  "version": "1.0.0",
+  "description": "Simple Node.js API for learning Docker and CI/CD pipelines",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
